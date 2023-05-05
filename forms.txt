@@ -1,0 +1,27 @@
+touched means if we touch and leave field it is true
+dirty means if u change value then it marks true:
+for dirty example:if we add default value:sujatha and u try to change that value dirty truue and if u add same value sujatha dirty false
+
+
+  //unlike watch getvalue will not trigger rerenders and get form values only click on button
+
+  //diabled field means value undefined validation disabled
+
+  form submission state
+  1.isSubmitted
+  2.isSubmitting //THIS IS useful to disbale form submit submit btn while form submitting
+  3.isSubmitSuccessfull
+  4.submitCount
+
+
+  it is recomended not  to call reset function iside submit handler instaed of use isSubmitSuccessfull
+
+  to chagne mode of displaying errormsgs while default onsubmit
+   mode:'onBlur'
+    mode:'all' //inlcude blur and onchnage
+
+
+    yup is schema validation library
+
+    npm i yup @hook-form/resolvers 
+    @hookform/resolvers which bridges react hook form with yup
